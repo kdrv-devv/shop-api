@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>HomeWork</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="nav__logo">
+          <a href="./index.html"
+            ><img src="./img/SVG.png" alt=""
+          /></a>
+        </div>
+
+
+        <nav class="nav">
+          <!-- <input id="check" type="checkbox" /> -->
+          
+          <form action="">
+            <input type="text" placeholder="Search...">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+
+
+
+        </nav>
+
+
+
+        <div class="nav__sosials">
+          <div class="sosial">
+            <div class="sosial__bord">
+              <a href="#">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+            </div>
+            <div class="sosial__bord">
+              <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+            <div class="sosial__bord">
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+
+            <label id="open" for="check">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+          </div>
+
+          <div class="nav__number">
+            <a href="tel:998979661575">+998 97 966 15 75</a>
+            <a href="tel:998902006469">+998 88 738 15 75</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="showcase">
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="img">
+                <img src="https://images.uzum.uz/cs4db9mfh2vj1qtjsseg/main_page_banner.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="https://images.uzum.uz/cs572oefh2vj1qtk2cs0/main_page_banner.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://images.uzum.uz/cs57bb7frr8f0ihukpug/main_page_banner.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="container">
+        <div class="all__cards">
+
+
+
+          <!-- <div class="card1">
+            <div class="card__img">
+              <img src="./img/kiyim.webp" alt="This is img" />
+              <div class="mensen">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+
+            <div class="card__text">
+              <h2>Name all product</h2>
+              <p>price</p>
+
+              <div class="btn">
+                <div class="btnn">
+                  <button class="btnnn">Buy</button>
+                </div>
+                <div class="korzinka">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <div class="start">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 3000, // Delay between slides (in milliseconds)
+          disableOnInteraction: false, // Autoplay will continue even after user interaction
+        },
+      });
+    </script>
+
+    
+
+    <div class="sort">
+      <button class="all">All</button>
+      <button class="mens">Mens</button>
+      <button class="womens">Womens</button>
+      <button class="electr">Electronic</button>
+    </div>
+
+
+
+
+
+  </body>
+</html>
